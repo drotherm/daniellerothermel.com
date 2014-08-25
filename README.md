@@ -1,4 +1,0 @@
-PWeb
-====
-
-My personal website
