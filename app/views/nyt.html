@@ -1,0 +1,15 @@
+<!-- blast data table -->
+<div id='alld3' ng-controller='NytChartsCtrl'>
+    <p>Note that all data in the following charts is completely random!</p>
+    <p>The chart below shows the number of creates and deletes for a device over time.</p>
+    <div class="d3basbar">
+        <div d3-basic-bar data="testBHCre" direction="up" color="DarkGreen" maxValue="maxBarHeight" height="150" title="Users Created"></div>
+        <div d3-basic-bar data="testBHDel" direction="down" color="DarkRed" maxValue="maxBarHeight" height="150" title="Users Deleted"></div>
+    </div>
+
+    <p>The chart below shows the number of deletes for two different devices after a breaking news blast.</p>
+    <div class="d3bl">
+        <div d3-bar-leaf data="testBL"></div>
+    </div>
+</div>
+

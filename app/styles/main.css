@@ -12,6 +12,39 @@ body {
   padding-right: 15px;
 }
 
+/* This was added by me */
+
+.type1 {
+  fill: Maroon;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.type2 {
+  fill: DarkBlue;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.line {
+  stroke: black;
+  stroke-width: 2;
+}
+
+/* End This was added by me */
+
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
