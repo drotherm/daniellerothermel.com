@@ -13,9 +13,46 @@ html, body {
 
 }
 
-h1 {
+#basemidbar{
+  position: absolute;
+  margin: 0px 13% 0px 13%;
 
-  font-family: Garamond;
+  width: 74%;
+  height: 100%;
+
+  background-color: #ffffff;
+  background-image: url('seamlessgrey.jpg');
+  background-repeat: repeat;
+
+  box-shadow: 5px 0px 5px #888888,-5px 0px 5px #888888;
+}
+
+#topmidbar{
+  position: absolute;
+  margin: 0px 1% 0px 1%;
+
+  width: 98%;
+  height: 100%;
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Home page */
+
+#titlebar{
+
+  position: absolute;
+  margin: 60px 0px 10px 0px;
+
+  width: 100%;
+  height: 390px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#titlebar h1 {
+
+  font-family: Helvetica;
   font-size: 200;
   color: #E0E0E0;
   white-space: nowrap;
@@ -24,13 +61,6 @@ h1 {
 
   margin-top: 45px;
   margin-left: 480px;
-}
-
-p {
-  font-family: TimesNewRoman;
-  color: white;
-
-  position: absolute;
 }
 
 .backcircle{
@@ -47,12 +77,6 @@ p {
   background: #fff;
 }
 
-.text{
-  display: inline-block;
-  position: absolute;
-  margin: 20px;
-}
-
 #profile{
   position: absolute;
   border-radius: 500px;
@@ -64,37 +88,27 @@ p {
   height: 96%;
 }
 
-#midbar{
-  position: absolute;
-  margin: 0px 13% 0px 13%;
+/* About Me Page */
 
-  width: 74%;
-  height: 100%;
+#topmidbar h1 {
 
-  background-color: #ffffff;
-  background-image: url('seamlessgrey.jpg');
-  background-repeat: repeat;
-
-  box-shadow: 5px 0px 5px #888888,-5px 0px 5px #888888;
-}
-
-#titlebar{
+  font-family: 'Droid Serif', serif;
+  color: #000000;
+  white-space: nowrap;
 
   position: absolute;
-  margin: 60px 0px 10px 0px;
 
-  width: 100%;
-  height: 390px;
-
-  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  margin-left: 5%;
 }
 
-#basemid{
+#topmidbar div {
   position: absolute;
-  margin: 0px 1% 0px 1%;
 
-  width: 98%;
-  height: 100%;
-
-  background-color: rgba(255, 255, 255, 1);
+  margin: 60px 6% 0px 6%;
 }
+
+#topmidbar p {
+  font-family: 'Arial';
+}
+
