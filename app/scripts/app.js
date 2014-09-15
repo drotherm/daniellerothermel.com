@@ -21,6 +21,10 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+        templateUrl: 'views/home.html',
+        controller: 'NytChartsCtrl'
+      })
+      .when('/nyt', {
         templateUrl: 'views/nyt.html',
         controller: 'NytChartsCtrl'
       })
