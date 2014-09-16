@@ -24,12 +24,20 @@ angular
         templateUrl: 'views/home.html',
         controller: 'NytChartsCtrl'
       })
-      .when('/nyt', {
-        templateUrl: 'views/nyt.html',
-        controller: 'NytChartsCtrl'
-      })
       .when('/aboutme', {
         templateUrl: 'views/aboutme.html',
+        controller: 'NytChartsCtrl'
+      })
+      .when('/projects', {
+        templateUrl: 'views/projects.html',
+        controller: 'NytChartsCtrl'
+      })
+      .when('/blog', {
+        templateUrl: 'views/blog.html',
+        controller: 'NytChartsCtrl'
+      })
+      .when('/contactme', {
+        templateUrl: 'views/contactme.html',
         controller: 'NytChartsCtrl'
       })
       .otherwise({
